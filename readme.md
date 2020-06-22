@@ -1,4 +1,4 @@
-# A simple bot to integrate on slack
+# A simple bot to integrate in slack
 *Based on [Flottbot](https://target.github.io/flottbot-docs/about/) project*
 **Install Your Bot Integration**
 
