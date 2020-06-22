@@ -1,0 +1,10 @@
+name: test-bot
+chat_application: slack
+slack_token: ${SLACK_TOKEN}
+
+debug: true
+
+# system
+#cli: true
+
+#custom_help_text: "Sorry, I didn't get that. Try with: \n `hello`"

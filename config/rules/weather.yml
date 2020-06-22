@@ -1,0 +1,19 @@
+name: weather info
+active: true
+respond: weather info
+actions:
+  - name: weather http request
+    type: GET
+    url: http://api.openweathermap.org/data/2.5/weather
+    query_data:
+      q: ${location}
+      appid: ${API_KEY}
+      units: metric
+    auth:
+    expose_json_fields:
+      temperature: '.main.temp'
+      loc: '.name'
+format_output: "The temperature in ${loc} is ${temperature} degrees"     
+direct_message_only: false
+help_text: weather info
+include_in_help: true
