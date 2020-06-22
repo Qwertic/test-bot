@@ -1,5 +1,6 @@
 # A simple bot to integrate in slack
 *Based on [Flottbot](https://target.github.io/flottbot-docs/about/) project*
+
 **Install Your Bot Integration**
 
 Got access to a Slack workspace? Great. Let's add your integration:
@@ -19,6 +20,7 @@ Edit the name of your bot in /config/bot.yml to look like:
 Now, you'll need to export your Slack bot token as an environment variable wherever your bot runs:
 
 `export SLACK_TOKEN=xoxb-xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxx`
+
 **Run**
 *Docker is needed on your local machine in order to run the program*
 
